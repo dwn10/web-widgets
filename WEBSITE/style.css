@@ -2,14 +2,15 @@
 
 :root{
     --color-principal: #0ef;
-    --color-secondary: #e1e1e1;
+    --color-secondary: #ffffff;
 
     --color-background: #081b29;
     --color-transparent: transparent;
 
+    --color-icons: #f8a60e;
     --color-buttons: #081b29;
     --color-title: #0ed3e9;
-    --color-details: #032b2d;
+    --color-details: #0F3759;
 }
 
 /*--GENERAL STYLES--*/
@@ -22,16 +23,19 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url(images/city-in-winter.jpg);
+    background-image: url(images/Vivid_Snow.png);
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
-    filter: brightness(50%);
+}
+.hero{
+    background-image: url(images/Vivid_Snow.png);
 }
 
 .logo{
     width: 100px;
+    margin-top: 100px;
     cursor: pointer;
 }
 
@@ -45,20 +49,173 @@
 }
 
 button{
-    color: var(--color-secondary);
+    color: var(--color-principal);
     padding: 10px 25px;
-    background: var(--color-transparent);
+    background: #022d33b6;
     border: 1px solid var(--color-principal);
     border-radius: 5px;
     outline: none;
+    margin-top: 100px;
     cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+button:hover{
+    transform: scale(1.1);
 }
 
 .content{
-    color: var(--color-title);
+    color: var(--color-principal);
     position: absolute;
     top: 50%;
     left: 8px;
     transform: translateY(-50%);
     z-index: 2;
+
+    padding: 10px 25px;
+    outline: none;
+
+}
+
+h1{
+    font-size: 70px;
+    margin: 10px 0 30px;
+    line-height: 70px;
+    text-shadow: 0 3px 3px var(--color-background);
+}
+
+small{
+    font-size: 18px;
+    margin: 5px 0 20px;
+    text-shadow: 0 1px black;
+}
+
+.side-bar{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#0ca2b3, #0F3759);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu{
+    width: 18px;
+    margin: 0;
+}
+
+.social-links img, .user-links img{
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+.social-links{
+    width: auto;
+    position: unset;
+    transform: none;
+}
+
+.social-links img:hover{
+    transform: scale(1.1);
+}
+
+.useful-links{
+    width: auto;
+    position: unset;
+}
+
+.snows img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+    filter:brightness(10%);
+}
+
+.snows{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: -50px;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(80vh);
+        opacity: 0;
+}
+}
+
+.snows img:nth-child(1){
+    animation-delay: 2s;
+    width: 23px;
+}
+.snows img:nth-child(2){
+    animation-delay: 1s;
+}
+.snows img:nth-child(3){
+    animation-delay: 3s;
+    width: 23px;
+}
+.snows img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.snows img:nth-child(5){
+    animation-delay: 3s;
+}
+.snows img:nth-child(6){
+    width: 18px;
+    animation-delay: 6s;
+}
+.snows img:nth-child(7){
+    width: 33px;
+    animation-delay: 7s;
+}
+
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size: 33px;
+        line-height: 48px;
+    }
+    .side-bar{
+        width: 100%;
+        height: 45px;
+        top: auto;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+/*--    h1{
+        font-size: 33px;
+        line-height: 48px;
+    }
+    .side-bar{
+        width: 100%;
+        height: 45px;
+        top: auto;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        box-sizing: border-box;
+    } --*/
 }
