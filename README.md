@@ -15,7 +15,7 @@ const Projects = {
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
-Las imágenes de las nieves tienen diferentes retrasos de animación para crear un efecto dinámico. 
+Las imágenes de la nieve tienen diferentes retrasos de animación para crear un efecto dinámico. 
 La primera imagen tiene un retraso de 2s, la segunda de 1s, la tercera de 3s, 
 la cuarta de 4s, la quinta de 3s, la sexta de 6s y la séptima de 7s.
 
