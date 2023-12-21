@@ -20,5 +20,5 @@ La primera imagen tiene un retraso de 2s, la segunda de 1s, la tercera de 3s,
 la cuarta de 4s, la quinta de 3s, la sexta de 6s y la séptima de 7s.
 
 <p align='left'>
-<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1187311151210577970/efecto-nieve.gif?ex=65966cad&is=6583f7ad&hm=d1a8389e62f20df3b58841272766979ba1b481aaaee4c57d181dca06f052e6d2&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1187313388259389441/efecto-nieve-min.gif?ex=65966ec2&is=6583f9c2&hm=dc472fbe5374bb8bb4dd9e25c2cd022527719e323fc2dffa6a821b249f74261f&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
