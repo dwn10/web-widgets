@@ -1,0 +1,102 @@
+
+/* VARIABLES DEFINITION */
+
+:root{
+    --color-principal: #0ef;
+    --color-secondary: #ffffff;
+
+    --color-background: #081b29;
+    --color-transparent: transparent;
+    --color-text: #6ae90f;
+
+}
+
+/*--GENERAL STYLES--*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+/*--  --*/
+.container{
+    width: 100%;
+    height: 100vh;
+    background: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    padding: 10px 40px;
+    background: var(--color-principal);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 400;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+.btn:hover{
+    background: var(--color-secondary);
+    color: var(--color-text);
+    box-shadow: 0 3px 3px rgba(23, 233, 8, 0.893);
+}
+
+.popup{
+    width: 400px;
+    background: var(--color-secondary);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: var(--color-background);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    box-shadow: 0 7px 7px rgba(23, 233, 8, 0.893);
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -66px;
+    border-radius: 20%;
+    box-shadow: 0 2px 0px rgba(23, 233, 8, 0.893);
+}
+
+.popup h1{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 20px 0 20px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: var(--color-background);
+    color: var(--color-secondary);
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 2px 0px rgba(23, 233, 8, 0.893);
+}
+
+/*--
+.popup button:hover{
+    box-shadow: 0 2px 0px rgba(23, 233, 8, 0.893);
+}   --*/
