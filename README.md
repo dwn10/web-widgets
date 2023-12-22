@@ -11,8 +11,8 @@ const Projects = {
 ## Content
 <ul>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE">EFECTO CAIDA DE NIEVE</a></li>
-	<li><a href=" ">COMING SOON</a></li>
-	<li><a href=" ">POPUP</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/COMING-SOON-PAGE">COMING SOON</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/POPUP">POPUP</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
