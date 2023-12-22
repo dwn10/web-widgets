@@ -11,7 +11,8 @@ const Projects = {
 ## Content
 <ul>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE">EFECTO CAIDA DE NIEVE</a></li>
-	<li><a href=" ">DIGITAL CLOCK</a></li>
+	<li><a href=" ">COMING SOON</a></li>
+	<li><a href=" ">POPUP</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -33,4 +34,13 @@ Cuando el temporizador llega a cero, se detiene y los elementos se establecen en
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1187513330391326892/coming-soon-min.gif?ex=659728f8&is=6584b3f8&hm=24e17e75e05f3d1f79164a61e24a5f1421081396c4d76a96d0e91c48ae39639e&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## POPUP
+Formulario con un botón de envío y un cuadro de diálogo emergente que se abre cuando se hace clic en el botón enviar. 
+El cuadro de diálogo contiene una imagen de verificación, un mensaje de agradecimiento y un botón de cierre. 
+Cuando se hace clic en el botón de OK, el cuadro de diálogo se vuelve a cerrar.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1187766001685778543/popup.gif?ex=6598144a&is=65859f4a&hm=1b1934f034be8837e3d46d7ae5575ffa0c9af27cf83bd54ae5eb23f38dc95a9c&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
