@@ -48,10 +48,27 @@
 </div>
 
 <script>
+    // countDownDate: Se declara una variable countDownDate para almacenar
+    // la fecha límite del contador (31 de diciembre de 2023 a las 00:00:00).
+    // El valor se obtiene utilizando la función new Date() con el formato de fecha especificado.
 
     var countDownDate = new Date("Dec 31, 2023 00:00:00").getTime();
+
+    // x: Se declara una variable x para almacenar un intervalo periódico.
+    // El valor inicial del intervalo es 1000 milisegundos (1 segundo).
+    // La función setInterval() se utiliza para establecer un intervalo
+    // periódico que se ejecutará cada segundo.
+
+
+// Función de conteo regresivo:
     var x = setInterval(function(){
+
+//Se obtiene la fecha y hora actual utilizando la función new Date()
+// y se almacena en la variable now como un valor en milisegundos.
         var now = new Date().getTime();
+
+//Se calcula la diferencia entre la fecha límite countDownDate y
+// la fecha actual now en milisegundos. El valor se almacena en la variable distance.
         var distance = countDownDate - now;
 
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -73,6 +90,27 @@
     }
 
     },1000);
+
+// var days = Math.floor(distance / (1000 * 60 * 60 * 24));:
+// Se divide la diferencia distance en grupos de 1000 milisegundos
+// (1 segundo) para obtener el número de días restantes.
+// Se utiliza la función Math.floor() para obtener el número entero sin decimales
+// y se almacena en days.
+
+// var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));:
+// Se divide el resto de la diferencia distance después de contar los
+// días en grupos de 1000 * 60 * 60 (60 minutos) para obtener el número
+// de horas restantes. Se utiliza la función Math.floor() para obtener el
+// número entero sin decimales y se almacena en hours.
+
+// var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));: Se divide el resto
+// de la diferencia distance después de contar las horas en grupos de 1000 * 60 (60 segundos)
+// para obtener el número de minutos restantes. Se utiliza la función Math.floor()
+// para obtener el número entero sin decimales y se almacena en minutes.
+
+// var seconds = Math.floor((distance % (1000 * 60)) / 1000);: Se divide el resto de la
+// diferencia distance después de contar los minutos en grupos de 1000 (1 segundo) para
+// obtener el número de segundos restantes. Se utiliza la función Math.floor() para obtener el número
 
 </script>
 
