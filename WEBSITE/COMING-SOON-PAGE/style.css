@@ -1,0 +1,121 @@
+
+/* VARIABLES DEFINITION */
+
+:root{
+    --color-principal: #0ef;
+    --color-secondary: #ffffff;
+
+    --color-background: #081b29;
+    --color-transparent: transparent;
+
+    --color-icons: #f8a60e;
+    --color-buttons: #081b29;
+    --color-title: #0ed3e9;
+    --color-details: #0F3759;
+}
+
+/*--GENERAL STYLES--*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+/*--  --*/
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/nebula.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: var(--color-secondary);
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: var(--color-principal);
+}
+
+.content button{
+    background: var(--color-transparent);
+    border: 2px solid var(--color-secondary);
+    outline: none;
+    padding: 10px 22px;
+    color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+.content button i{
+    width: 20px;
+    margin-left: 10px;
+    color: var(--color-secondary);
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+.content button i:hover{
+    color: var(--color-principal);
+}
+
+.content button:hover{
+    border: 2px solid var(--color-principal);
+    color: var(--color-principal);
+}
+
+.launch-time{
+    display: flex;
+}
+
+.launch-time div{
+    flex-basis: 100px;
+}
+
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+.launch-time div span{
+    font-size: 16px;
+    color: var(--color-principal);
+}
+
+.rocket{
+    width: 180px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}

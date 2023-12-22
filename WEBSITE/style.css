@@ -19,6 +19,7 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 /*-- La sección Hero establece el fondo de la página de inicio
 con una imagen de nieve vibrante. La imagen se ajusta al ancho
 y alto de la ventana del navegador y se centra en la página.
@@ -36,13 +37,24 @@ el contenido principal se superponga a la imagen de fondo. --*/
 .hero{
     background-image: url(images/Vivid_Snow.png);
 }
-/*--  --*/
+
+/*-- El logotipo se define como un elemento de ancho 100px
+que se encuentra en la parte superior de la página de inicio.
+El cursor se establece en puntero para indicar
+que se puede hacer clic en el logotipo.
+--*/
 .logo{
     width: 100px;
     margin-top: 100px;
     cursor: pointer;
 }
-/*--  --*/
+
+/*-- La barra de navegación se compone de un encabezado y un botón.
+El encabezado incluye el logotipo y el botón.
+El botón tiene un color principal, relleno, fondo, borde,
+radio de borde, contorno, margen superior y cursor de puntero.
+El botón cambia de tamaño al pasar el mouse sobre él.
+--*/
 .navbar{
     width: 85%;
     height: 15px;
@@ -67,6 +79,10 @@ button:hover{
     transform: scale(1.1);
 }
 
+/*-- El contenido principal se define con un color principal,
+posición absoluta, alineación superior, margen izquierdo de 8px,
+transformación translateY para centrarlo verticalmente,
+índice z 2 y relleno de 10px en los lados y 25px en la parte inferior. --*/
 .content{
     color: var(--color-principal);
     position: absolute;
@@ -80,6 +96,10 @@ button:hover{
 
 }
 
+/*-- El título principal (H1) se define con un tamaño de fuente de 70px,
+margen superior de 10px y 0px, línea de altura de 70px,
+texto con sombras de 0px 3px 3px de color de fondo
+y margen inferior de 30px. --*/
 h1{
     font-size: 70px;
     margin: 10px 0 30px;
@@ -87,12 +107,18 @@ h1{
     text-shadow: 0 3px 3px var(--color-background);
 }
 
+/*-- El texto pequeño (small) se define con un tamaño de fuente de 18px,
+margen superior de 5px, 0px, sombra de texto de 0px 1px negro
+y margen inferior de 20px. --*/
 small{
     font-size: 18px;
     margin: 5px 0 20px;
     text-shadow: 0 1px black;
 }
 
+/*-- La barra lateral se define con un ancho de 50px,
+altura de 100vh, degradado lineal de #0ca2b3 a #0F3759,
+posición absoluta, derecha de 0px y superior de 0px. --*/
 .side-bar{
     width: 50px;
     height: 100vh;
@@ -102,11 +128,17 @@ small{
     top: 0;
 }
 
+/*-- El menú se define con un ancho de 18px y margen 0px. --*/
 .menu{
     width: 18px;
     margin: 0;
 }
 
+/*-- Los enlaces sociales y útiles se definen con imágenes
+con tamaños de 25px, márgenes de 5px automáticos,
+cursor de puntero y transición de todos los 0.6s ease-in-out.
+Los enlaces sociales se colocan en el menú de la barra lateral.
+--*/
 .social-links img, .user-links img{
     width: 25px;
     margin: 5px auto;
@@ -129,12 +161,17 @@ small{
     position: unset;
 }
 
+/*-- Las nieves se definen con imágenes con tamaños de 50px,
+animación de burbuja 7s lineal infinita y filtro de brillo del 10%.
+--*/
 .snows img{
     width: 50px;
     animation: bubble 7s linear infinite;
     filter:brightness(10%);
 }
-
+/*-- Las nieves se colocan en la parte superior de la página con un ancho del 100%,
+disposición flexible, alineación de elementos centrados,
+justificación de contenido de espacio alrededor y posición absoluta. --*/
 .snows{
     width: 100%;
     display: flex;
@@ -160,6 +197,10 @@ small{
 }
 }
 
+/*-- Las imágenes de las nieves tienen diferentes retrasos
+de animación para crear un efecto dinámico. La primera imagen
+tiene un retraso de 2s, la segunda de 1s, la tercera de 3s,
+la cuarta de 4.5s, la quinta de 3s, la sexta de 6s y la séptima de 7s. --*/
 .snows img:nth-child(1){
     animation-delay: 2s;
     width: 23px;
@@ -186,6 +227,13 @@ small{
     animation-delay: 7s;
 }
 
+/*-- La media query especifica que a una pantalla ancha de 600px
+o menos, el título H1 se establece en un tamaño de fuente de 33px,
+una línea de altura de 48px y la barra lateral se establece
+en un ancho de 100%, una altura de 45px, posición superior automática,
+parte inferior de 0px, disposición flexible, alineación de elementos centrados,
+justificación de contenido de espacio alrededor,
+relleno de 0px a 10px y caja de límite de border-box. --*/
 @media screen and (max-width: 600px)
 {
     h1{
@@ -194,7 +242,7 @@ small{
     }
     .side-bar{
         width: 100%;
-        height: 45px;
+        height: 48px;
         top: auto;
         bottom: 0;
         display: flex;
@@ -207,9 +255,9 @@ small{
 
 @media screen and (max-width: 900px) and (min-width: 600px)
 {
-/*--    h1{
-        font-size: 33px;
-        line-height: 48px;
+h1{
+        font-size: 56px;
+        line-height: 56px;
     }
     .side-bar{
         width: 100%;
@@ -221,5 +269,5 @@ small{
         justify-content: space-between;
         padding: 0 10px;
         box-sizing: border-box;
-    } --*/
+    }
 }
