@@ -38,7 +38,7 @@ Cuando el temporizador llega a cero, se detiene y los elementos se establecen en
 
 ## POPUP
 Formulario con un botón de envío y un cuadro de diálogo emergente que se abre cuando se hace clic en el botón enviar. 
-El cuadro de diálogo emergente contiene una imagen de verificación, un mensaje de agradecimiento y un botón de cierre. 
+El cuadro de diálogo contiene una imagen de verificación, un mensaje de agradecimiento y un botón de cierre. 
 Cuando se hace clic en el botón de OK, el cuadro de diálogo se vuelve a cerrar.
 
 <p align='left'>
