@@ -11,8 +11,9 @@ const Projects = {
 ## Content
 <ul>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE">EFECTO CAIDA DE NIEVE</a></li>
-	<li><a href=" ">COMING SOON</a></li>
-	<li><a href=" ">POPUP</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/COMING-SOON-PAGE">COMING SOON</a></li>
+	<li><a href="">VALIDACIÓN DE FORMULARIO</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/POPUP">POPUP</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -34,6 +35,16 @@ Cuando el temporizador llega a cero, se detiene y los elementos se establecen en
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1187513330391326892/coming-soon-min.gif?ex=659728f8&is=6584b3f8&hm=24e17e75e05f3d1f79164a61e24a5f1421081396c4d76a96d0e91c48ae39639e&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## VALIDACIÓN DE FORMULARIO
+Este código implementa la validación de un formulario de contacto. Se verifican los campos de nombre, 
+teléfono, correo electrónico y mensaje. Si algún campo no cumple con los requisitos, 
+se muestra un mensaje de error correspondiente. Solo si todos los campos pasan la validación se podrá enviar el formulario.
+
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1188814507196305489/validation.gif?ex=659be4c9&is=65896fc9&hm=e404255c0740d5f3222e5fb67bbc057fd9486bbb555bc6e786aab005edbe84aa&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## POPUP
