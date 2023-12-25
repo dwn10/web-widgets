@@ -12,8 +12,9 @@ const Projects = {
 <ul>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE">EFECTO CAIDA DE NIEVE</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/COMING-SOON-PAGE">COMING SOON</a></li>
-	<li><a href="">VALIDACIÓN DE FORMULARIO</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FORM-VALIDATION">VALIDACIÓN DE FORMULARIO</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/POPUP">POPUP</a></li>
+	<li><a href="">TEXTO A VOZ</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -54,4 +55,11 @@ Cuando se hace clic en el botón de OK, el cuadro de diálogo se vuelve a cerrar
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1187766001685778543/popup.gif?ex=6598144a&is=65859f4a&hm=1b1934f034be8837e3d46d7ae5575ffa0c9af27cf83bd54ae5eb23f38dc95a9c&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## TEXTO A VOZ
+App que lee el texto ingresado, también puede seleccionar de una  lista de voces disponibles y luego escuchar el texto en voz alta.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1188924753323507712/texto-a-voz.gif?ex=659c4b76&is=6589d676&hm=e69d7142ec874390fd4e5e2a4fe376a83ecb402ba76120220d2c30ad681815b0&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
