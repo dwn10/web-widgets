@@ -12,7 +12,7 @@ const Projects = {
 <ul>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE">EFECTO CAIDA DE NIEVE</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/COMING-SOON-PAGE">COMING SOON</a></li>
-	<li><a href="">VALIDACIÓN DE FORMULARIO</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FORM-VALIDATION">VALIDACIÓN DE FORMULARIO</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/POPUP">POPUP</a></li>
 </ul>
 
