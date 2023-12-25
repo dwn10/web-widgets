@@ -61,5 +61,6 @@ Cuando se hace clic en el botón de OK, el cuadro de diálogo se vuelve a cerrar
 App que lee el texto ingresado, también puede seleccionar de una  lista de voces disponibles y luego escuchar el texto en voz alta.
 
 <p align='left'>
-<img src="#" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<img src="Aplicación que lee el texto ingresado, también puede seleccionar de una  lista de voces disponibles y luego escuchar el texto en voz alta.
+" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
