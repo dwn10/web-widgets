@@ -14,7 +14,7 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/COMING-SOON-PAGE">COMING SOON</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FORM-VALIDATION">VALIDACIÓN DE FORMULARIO</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/POPUP">POPUP</a></li>
-	<li><a href="">TEXTO A VOZ</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TEXTO-A-VOZ">TEXTO A VOZ</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
