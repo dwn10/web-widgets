@@ -1,0 +1,54 @@
+/* VARIABLES DEFINITION */
+
+:root{
+    --color-principal: #0ef;
+    --color-secondary: #ffffff;
+
+    --color-background: #081b29;
+    --color-transparent: transparent;
+    --color-text: #6ae90f;
+    --color-subtitle: #cecaca;
+    --color-error:#ff01019a;
+}
+
+/*--GENERAL STYLES--*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left, #right{
+    width: 15rem;
+    min-height: 23rem;
+    margin: 1rem;
+    border: 2px dashed var(--color-subtitle);
+}
+
+.list{
+    background: var(--color-principal);
+    height: 3.6rem;
+    margin: 0.7rem;
+    color: var(--color-background);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+
+.list img{
+    width: 1rem;
+    margin-right: 1.2rem;
+    margin-left: 0.5rem;
+}
