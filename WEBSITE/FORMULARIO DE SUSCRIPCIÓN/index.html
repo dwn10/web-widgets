@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Publisher, Autor-->
+    <meta name="author" content="Darwin Paz">
+    <title>Formulario de suscripción</title>
+</head>
+<body>
+    
+    <div class="hero">
+        <h3>Próximamente</h3>
+        <h1>Nuestro nuevo<br>sitio web está en camino</h1>
+        <p>Suscríbete para más detalles</p>
+
+        <form name="submit-to-google-sheet">
+            <input type="email" name="Email" placeholder="Tu email ID" required>
+            <button type="submit"><img src="images/send-1.png" width="23px"></button>
+        </form>
+        <span id="msg"></span>
+
+    </div>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby1pON6pD8lxIpOTUoRC5_qyPecTSDFgoQ2Gm5wbYzMeUvkmWLMLqrN78P8oibKTd812g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Gracias por suscribirse!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+</script>
+
+</body>
+</html>
