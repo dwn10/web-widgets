@@ -1,4 +1,4 @@
-# Projects created with the following technologies:
+# Proyectos creados con las siguientes tecnologías:
 
 ```javascript
 const Projects = {
