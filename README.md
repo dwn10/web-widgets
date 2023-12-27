@@ -40,7 +40,11 @@ Cuando el temporizador llega a cero, se detiene y los elementos se establecen en
 <p align="left">
 
 ## SUSCRIPCIÓN
-App 
+Formulario de suscripción para ingresar la dirección de correo electrónico. 
+Al enviar el formulario, los datos se envían a una hoja de cálculo de Google Sheets 
+utilizando la API de Google Apps Script. La respuesta recibida se procesa para mostrar 
+un mensaje de confirmación y luego se resetea el formulario para limpiar los campos.
+
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1189247323260334110/suscripcion.gif?ex=659d77e1&is=658b02e1&hm=1334f929eea5d236f288f7075b944000c651f27c7169f44a374c7bba802eebf2&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
