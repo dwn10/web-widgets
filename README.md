@@ -12,9 +12,10 @@ const Projects = {
 <ul>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE">EFECTO CAIDA DE NIEVE</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/COMING-SOON-PAGE">COMING SOON</a></li>
+	<li><a href="#">SUSCRIPCIÓN</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FORM-VALIDATION">VALIDACIÓN DE FORMULARIO</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/POPUP">POPUP</a></li>
-	<li><a href="">TEXTO A VOZ</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TEXTO-A-VOZ">TEXTO A VOZ</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -36,6 +37,17 @@ Cuando el temporizador llega a cero, se detiene y los elementos se establecen en
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1187513330391326892/coming-soon-min.gif?ex=659728f8&is=6584b3f8&hm=24e17e75e05f3d1f79164a61e24a5f1421081396c4d76a96d0e91c48ae39639e&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## SUSCRIPCIÓN
+Formulario de suscripción para ingresar la dirección de correo electrónico. 
+Al enviar el formulario, los datos se envían a una hoja de cálculo de Google Sheets 
+utilizando la API de Google Apps Script. La respuesta recibida se procesa para mostrar 
+un mensaje de confirmación y luego se resetea el formulario para limpiar los campos.
+
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1189247323260334110/suscripcion.gif?ex=659d77e1&is=658b02e1&hm=1334f929eea5d236f288f7075b944000c651f27c7169f44a374c7bba802eebf2&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## VALIDACIÓN DE FORMULARIO
