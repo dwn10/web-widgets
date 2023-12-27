@@ -6,7 +6,7 @@ const Projects = {
 	technologies: {
 	devTool: ["Visual Studio Code"]
 	}
-};
+}
 ```
 ## Content
 <ul>
