@@ -17,6 +17,7 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/POPUP">POPUP</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TEXTO-A-VOZ">TEXTO A VOZ</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/DRAG-%26-DROP">ARRASTRAR & SOLTAR</a></li>
+	<li><a href="#">FIRMA DIGITAL</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -79,6 +80,14 @@ App que lee el texto ingresado, también puede seleccionar de una  lista de voce
 
 ## ARRASTRAR & SOLTAR
 Sistema de arrastrar y soltar para mover las casillas de la lista entre las cajas izquierda y derecha de la página web.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1189611290688233492/dragdrop-min.gif?ex=659ecad9&is=658c55d9&hm=30d55e161194d5aa138642da26feab5a17c5b27b7c6a4c72d9025999bdc95c60&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## FIRMA DIGITAL
+Es una aplicación que permite al usuario firmar en un lienzo con el moviendo del mouse. 
+El usuario puede borrar, descargar la firma en formato PNG haciendo clic en el botón Descargar.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1189611290688233492/dragdrop-min.gif?ex=659ecad9&is=658c55d9&hm=30d55e161194d5aa138642da26feab5a17c5b27b7c6a4c72d9025999bdc95c60&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
