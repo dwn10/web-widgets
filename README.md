@@ -1,4 +1,4 @@
-# Projects created with the following technologies:
+# Proyectos creados con las siguientes tecnologías:
 
 ```javascript
 const Projects = {
@@ -6,7 +6,7 @@ const Projects = {
 	technologies: {
 	devTool: ["Visual Studio Code"]
 	}
-};
+}
 ```
 ## Content
 <ul>
@@ -16,7 +16,8 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FORM-VALIDATION">VALIDACIÓN DE FORMULARIO</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/POPUP">POPUP</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TEXTO-A-VOZ">TEXTO A VOZ</a></li>
-	<li><a href="#">ARRASTRAR & SOLTAR</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/DRAG-%26-DROP">ARRASTRAR & SOLTAR</a></li>
+	<li><a href="#">FIRMA DIGITAL</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -82,4 +83,12 @@ Sistema de arrastrar y soltar para mover las casillas de la lista entre las caja
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1189611290688233492/dragdrop-min.gif?ex=659ecad9&is=658c55d9&hm=30d55e161194d5aa138642da26feab5a17c5b27b7c6a4c72d9025999bdc95c60&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## FIRMA DIGITAL
+Es una aplicación que permite al usuario firmar en un lienzo con el moviendo del mouse. 
+El usuario puede borrar, descargar la firma en formato PNG haciendo clic en el botón Descargar.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1190758551786893332/firma-digital.gif?ex=65a2f751&is=65908251&hm=289953c74798c341327b055b6a86c95b10c6656a4ab75f1da7c03d607468a94f&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
