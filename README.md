@@ -18,6 +18,7 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TEXTO-A-VOZ">TEXTO A VOZ</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/DRAG-%26-DROP">ARRASTRAR & SOLTAR</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FIRMA-DIGITAL">FIRMA DIGITAL</a></li>
+	<li><a href="">TARJETA DESPLEGABLE 3D</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -92,3 +93,14 @@ El usuario puede borrar, descargar la firma en formato PNG haciendo clic en el b
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1190758551786893332/firma-digital.gif?ex=65a2f751&is=65908251&hm=289953c74798c341327b055b6a86c95b10c6656a4ab75f1da7c03d607468a94f&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
+
+## TARJETA DESPLEGABLE 3D
+Tarjeta interactiva con un fondo giratorio y detalles personalizados. 
+La tarjeta se puede desplazar horizontalmente al pasar el mouse sobre ella, 
+y las imágenes y el contenido giran junto con ella. 
+También se incluyen enlaces a redes sociales con un efecto de hover.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1191022718250913792/tarjeta-3d.gif?ex=65a3ed58&is=65917858&hm=ea9e8e7194a53cfd5de18b787f7605fbbb0ef789ecac8aade1d161dd85bd0c29&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
