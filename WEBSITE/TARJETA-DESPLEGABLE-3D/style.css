@@ -1,0 +1,137 @@
+/* VARIABLES DEFINITION */
+
+:root{
+    --color-principal: #0ef;
+    --color-secondary: #ffffff;
+
+    --color-background: #081b29;
+    --color-transparent: transparent;
+    --color-text: #6ae90f;
+    --color-subtitle: #f2e9e9;
+    --color-icons:#282826ed;
+}
+
+/*--GENERAL STYLES--*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--color-background);
+}
+
+.card{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    background: var(--color-secondary);
+    transform-style: preserve-3d;
+    transform: perspective(60rem);
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(151, 231, 243, 0.5);
+    transition: 1s;
+}
+
+.card:hover{
+    transform: translateX(50%);
+}
+
+.card .imgBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    background-color: var(--color-background);
+    transition: 1s;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(151, 231, 243, 0.5);
+}
+
+.card .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.card .imgBox img:nth-child(2){
+    transform: rotateY(-180deg);
+}
+
+.card:hover .imgBox{
+    transform: rotateY(-180deg);
+}
+
+.card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .details .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .details .content h2{
+    color: var(--color-icons);
+    text-align: center;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.card .details .content h2 span{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--color-principal);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card .details .content .social-icons{
+    position: relative;
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+.card .details .content .social-icons a{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--color-background);
+    color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card .details .content .social-icons a:hover{
+    background: var(--color-subtitle);
+    color: var(--color-background);
+    border-radius: 1rem;
+    box-shadow: 0 3px 3px var(--color-principal);
+}
