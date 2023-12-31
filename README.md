@@ -18,7 +18,7 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TEXTO-A-VOZ">TEXTO A VOZ</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/DRAG-%26-DROP">ARRASTRAR & SOLTAR</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FIRMA-DIGITAL">FIRMA DIGITAL</a></li>
-	<li><a href="">TARJETA DESPLEGABLE 3D</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TARJETA-DESPLEGABLE-3D">TARJETA DESPLEGABLE 3D</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
