@@ -1,0 +1,277 @@
+/* VARIABLES DEFINITION */
+
+:root{
+    --color-principal: #0ef;
+    --color-secondary: #ffffff;
+
+    --color-background: #081b29;
+    --color-transparent: transparent;
+    --color-new: #6ae90f;
+    --color-glowing: #f70606;
+    --color-yellow: #f7ef06;
+    --color-blue: #06f7bf;
+    --color-subtitle: #312f2f;
+    --color-lateral:#051521;
+}
+
+/*--GENERAL STYLES--*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: var(--color-background);
+}
+
+/*--alineación horizontal de números--*/
+.container{
+    position: absolute;
+    display: flex;
+    transform-style: preserve-3d;
+    gap: 1.2rem;
+    transform: rotateY(30deg) rotateX(10deg);
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.container-logo .logo{
+    width: 200px;
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*--rotar cubos--*/
+.container.newyear .text{
+    transform: rotateX(calc(-360deg * 1));
+}
+
+/*--rotar último número--*/
+.container.newyear .text:last-child{
+    transform: rotateX(calc(-450deg * 1));
+}
+
+/*--texto variable j--*/
+.text{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    transform-style: preserve-3d;
+    transition: 2.5s ease-in-out;
+    transition-delay: calc(0.25s * var(--j));
+}
+
+/*--números 1080 + fondo cuadrado + efectos cubo--*/
+.text span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-secondary);
+    font-size: 7rem;
+    font-weight: 900;
+    cursor: default;
+    background: linear-gradient(#081b29, #0ef);
+    transform-style: preserve-3d;
+    transform: rotateX(calc(90deg * var(--i))) translateZ(5rem);
+
+    text-shadow: 0 3px 5px rgba(12, 12, 12, 0.905);
+}
+
+/*--cuadros laterales--*/
+.text::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--color-lateral);
+    transform-origin: left;
+    transform: rotateY(90deg) translateX(-5rem);
+}
+
+/*--último cuadro new--*/
+.text:last-child span{
+    background: linear-gradient(#6ae90f, #47a504);
+}
+
+/*--último cuadro new lateral--*/
+.text:last-child::before{
+    background: var(--color-new);
+}
+
+/*--subtítulo--*/
+p{
+    position: absolute;
+    bottom: 14rem;
+    color: var(--color-secondary);
+    font-size: 2rem;
+    transition: 0.5s;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(5, 243, 243, 0.905);
+}
+
+/*--título--*/
+h2{
+    position: absolute;
+    bottom: 9rem;
+    color: var(--color-subtitle);
+    font-size: 3rem;
+    transition: 0.5s;
+    text-shadow: 0 3px 5px rgba(12, 12, 12, 0.905);
+    cursor: pointer;
+}
+
+/*--título efecto onclick--*/
+h2.active{
+    color: var(--color-principal);
+    text-shadow: 0 0 1rem var(--color-principal), 0 0 2rem var(--color-principal);
+}
+
+/*--título agregar el 2024--*/
+h2:after{
+    content: ' 2024';
+}
+
+/*--título efecto onclick 2024--*/
+h2.active:after{
+    color: var(--color-new);
+    text-shadow: 0 0 1rem var(--color-new), 0 0 2rem var(--color-new);
+}
+
+/*--escarcha brillante--*/
+.glowing{
+    position: relative;
+    min-width: 60rem;
+    height: 60rem;
+    pointer-events: none;
+    margin: -15rem;
+    transform-origin: right;
+
+    animation: colorChange5s linear infinite;
+}
+
+@keyframes colorChange{
+    0%
+    {
+        filter: hue-rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+        transform: rotate(180deg);
+    }
+}
+
+.glowing:nth-child(even){
+    transform-origin: left;
+}
+
+.glowing span{
+    position: absolute;
+    top: calc(5rem * var(--i));
+    left: calc(5rem * var(--i));
+    bottom: calc(5rem * var(--i));
+    right: calc(5rem * var(--i));
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.glowing span::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -1rem;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--color-glowing);
+}
+
+/*--escarcha brillante hijos--*/
+.glowing span:nth-child(3n + 1){
+    animation: animate 10s alternate infinite;
+}
+
+.glowing span:nth-child(3n + 2){
+    animation: animate-reverse 12s alternate infinite;
+    -webkit-animation:;
+}
+
+.glowing span:nth-child(3n + 3){
+    animation: animate 7s alternate infinite;
+    -webkit-animation: animate 7s alternate infinite;
+}
+
+/*--escarcha brillante animación verde + azul--*/
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(33deg);
+    }
+}
+
+/*--escarcha brillante animación amarillo--*/
+@keyframes animate-reverse {
+    0%
+    {
+        transform: rotate(180deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
+
+/*--escarcha brillante efecto verde / hijo 1--*/
+.glowing span:nth-child(3n + 1)::before{
+    background: var(--color-new);
+    box-shadow: 0 0 2rem rgba(133, 255, 0, 1),
+    0 0 3rem rgba(133, 255, 0, 1),
+    0 0 5rem rgba(133, 255, 0, 1),
+    0 0 7rem rgba(133, 255, 0, 1),
+    0 0 0 0.3rem rgba(133, 255, 0, 0.1);
+}
+
+/*--escarcha brillante efecto amarillo / hijo 2--*/
+.glowing span:nth-child(3n + 2)::before{
+    background: var(--color-yellow);
+    box-shadow: 0 0 2rem rgba(255, 214, 0, 1),
+    0 0 3rem rgba(255, 214, 0, 1),
+    0 0 5rem rgba(255, 214, 0, 1),
+    0 0 7rem rgba(255, 214, 0, 1),
+    0 0 0 0.3rem rgba(255, 214, 0, 0.1);
+}
+
+/*--escarcha brillante efecto amarillo / hijo 3--*/
+.glowing span:nth-child(3n + 3)::before{
+    background: var(--color-blue);
+    box-shadow: 0 0 2rem rgba(6, 247, 191),
+    0 0 3rem  rgba(6, 247, 191),
+    0 0 5rem  rgba(6, 247, 191),
+    0 0 7rem  rgba(6, 247, 191),
+    0 0 0 0.3rem rgba(6, 247, 191, 0.1);
+}
