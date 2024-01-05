@@ -9,7 +9,8 @@
     --color-new: #6ae90f;
     --color-glowing: #f70606;
     --color-yellow: #f7ef06;
-    --color-blue: #06f7bf;
+    --color-blue: #0662f7;
+    --color-red: #f70606;
     --color-subtitle: #312f2f;
     --color-lateral:#051521;
 }
@@ -31,6 +32,7 @@ body{
     overflow: hidden;
     background: var(--color-background);
 }
+
 
 /*--alineación horizontal de números--*/
 .container{
@@ -157,121 +159,66 @@ h2.active:after{
     text-shadow: 0 0 1rem var(--color-new), 0 0 2rem var(--color-new);
 }
 
-/*--escarcha brillante--*/
-.glowing{
+/*--burbujas--*/
+.bubbles{
     position: relative;
-    min-width: 60rem;
-    height: 60rem;
-    pointer-events: none;
-    margin: -15rem;
-    transform-origin: right;
-
-    animation: colorChange5s linear infinite;
+    display: flex;
 }
 
-@keyframes colorChange{
-    0%
-    {
-        filter: hue-rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100%
-    {
-        filter: hue-rotate(360deg);
-        transform: rotate(180deg);
-    }
-}
-
-.glowing:nth-child(even){
-    transform-origin: left;
-}
-
-.glowing span{
-    position: absolute;
-    top: calc(5rem * var(--i));
-    left: calc(5rem * var(--i));
-    bottom: calc(5rem * var(--i));
-    right: calc(5rem * var(--i));
-    border-radius: 50%;
-    box-sizing: border-box;
-}
-
-.glowing span::before{
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: -1rem;
-    border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
-    background: var(--color-glowing);
-}
-
-/*--escarcha brillante hijos--*/
-.glowing span:nth-child(3n + 1){
-    animation: animate 10s alternate infinite;
-}
-
-.glowing span:nth-child(3n + 2){
-    animation: animate-reverse 12s alternate infinite;
-    -webkit-animation:;
-}
-
-.glowing span:nth-child(3n + 3){
-    animation: animate 7s alternate infinite;
-    -webkit-animation: animate 7s alternate infinite;
-}
-
-/*--escarcha brillante animación verde + azul--*/
-@keyframes animate {
-    0%
-    {
-        transform: rotate(0deg);
-    }
-    100%
-    {
-        transform: rotate(33deg);
-    }
-}
-
-/*--escarcha brillante animación amarillo--*/
-@keyframes animate-reverse {
-    0%
-    {
-        transform: rotate(180deg);
-    }
-    100%
-    {
-        transform: rotate(0deg);
-    }
-}
-
-/*--escarcha brillante efecto verde / hijo 1--*/
-.glowing span:nth-child(3n + 1)::before{
-    background: var(--color-new);
-    box-shadow: 0 0 2rem rgba(133, 255, 0, 1),
-    0 0 3rem rgba(133, 255, 0, 1),
-    0 0 5rem rgba(133, 255, 0, 1),
-    0 0 7rem rgba(133, 255, 0, 1),
-    0 0 0 0.3rem rgba(133, 255, 0, 0.1);
-}
-
-/*--escarcha brillante efecto amarillo / hijo 2--*/
-.glowing span:nth-child(3n + 2)::before{
+/*--burbujas formato --*/
+.bubbles span{
+    position: relative;
+    min-width: 30px;
+    height: 30px;
     background: var(--color-yellow);
-    box-shadow: 0 0 2rem rgba(255, 214, 0, 1),
-    0 0 3rem rgba(255, 214, 0, 1),
-    0 0 5rem rgba(255, 214, 0, 1),
-    0 0 7rem rgba(255, 214, 0, 1),
-    0 0 0 0.3rem rgba(255, 214, 0, 0.1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #c4be0a7c,
+    0 0 50px #f7ef06,
+    0 0 100px #f7ef06;
+
+    margin: 0 5px;
+    animation: animate 15s linear infinite;
+
+    animation-duration: calc(200s / var(--i));
 }
 
-/*--escarcha brillante efecto amarillo / hijo 3--*/
-.glowing span:nth-child(3n + 3)::before{
+/*--burbujas animación--*/
+
+.bubbles span:nth-child(even){
     background: var(--color-blue);
-    box-shadow: 0 0 2rem rgba(6, 247, 191),
-    0 0 3rem  rgba(6, 247, 191),
-    0 0 5rem  rgba(6, 247, 191),
-    0 0 7rem  rgba(6, 247, 191),
-    0 0 0 0.3rem rgba(6, 247, 191, 0.1);
+    box-shadow: 0 0 0 10px #02388f93,
+    0 0 50px #0662f7,
+    0 0 100px #0662f7;
+}
+
+.bubbles span:nth-child(3n){
+    background: var(--color-red);
+    box-shadow: 0 0 0 10px #9e010181,
+    0 0 50px #f70606,
+    0 0 100px #f70606;
+}
+
+@keyframes animate {
+
+    0%
+    {
+        transform: translateY(-70vh) scale(0);
+        opacity: 0;
+}
+
+    50%
+    {
+        opacity: 1;
+    }
+
+    70%
+    {
+        opacity: 1;
+    }
+
+    100%
+    {
+        transform: translateY(33vh) scale(1);
+        opacity: 0;
+}
 }
