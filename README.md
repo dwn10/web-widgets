@@ -19,6 +19,7 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/DRAG-%26-DROP">ARRASTRAR & SOLTAR</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FIRMA-DIGITAL">FIRMA DIGITAL</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TARJETA-DESPLEGABLE-3D">TARJETA DESPLEGABLE 3D</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/A%C3%91O-NUEVO">FELIZ AÑO NUEVO</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -102,5 +103,12 @@ También se incluyen enlaces a redes sociales con un efecto de hover.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1191022718250913792/tarjeta-3d.gif?ex=65a3ed58&is=65917858&hm=ea9e8e7194a53cfd5de18b787f7605fbbb0ef789ecac8aade1d161dd85bd0c29&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## FELIZ AÑO NUEVO
+2024
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1191417093388775514/feliz-anio-nuevo-min.gif?ex=65a55ca2&is=6592e7a2&hm=163536209ea69537cb765a008c3527750444f2b68670ea9a2d14a09e6768335a&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
