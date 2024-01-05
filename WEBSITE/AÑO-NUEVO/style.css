@@ -204,7 +204,7 @@ h2.active:after{
     {
         transform: translateY(-70vh) scale(0);
         opacity: 0;
-}
+    }
 
     50%
     {
@@ -220,5 +220,5 @@ h2.active:after{
     {
         transform: translateY(33vh) scale(1);
         opacity: 0;
-}
+    }
 }
