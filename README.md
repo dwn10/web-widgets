@@ -20,6 +20,7 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/FIRMA-DIGITAL">FIRMA DIGITAL</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TARJETA-DESPLEGABLE-3D">TARJETA DESPLEGABLE 3D</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/A%C3%91O-NUEVO">FELIZ AÑO NUEVO</a></li>
+	<li><a href="#">QUIZ APP</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -112,5 +113,14 @@ Las burbujas son un elemento decorativo que simula burbujas de jabón que bajan 
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1191417093388775514/feliz-anio-nuevo-min.gif?ex=65a55ca2&is=6592e7a2&hm=163536209ea69537cb765a008c3527750444f2b68670ea9a2d14a09e6768335a&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## QUIZ APP
+Cuestionario que evalúa el conocimiento del usuario. Consiste en preguntas, cada una con varias opciones de respuesta, 
+de las cuales solo una es correcta. También muestra el resumen de la puntuación final.
+
+
+<p align='left'>
+<img src="#" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
