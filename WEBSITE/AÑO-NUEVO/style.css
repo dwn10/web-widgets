@@ -159,7 +159,8 @@ h2.active:after{
     text-shadow: 0 0 1rem var(--color-new), 0 0 2rem var(--color-new);
 }
 
-/*--burbujas--*/
+/*--burbujas posición del contenedor -
+acomoda las burbujas en una fila horizontal--*/
 .bubbles{
     position: relative;
     display: flex;

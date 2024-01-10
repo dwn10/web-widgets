@@ -1,0 +1,110 @@
+/* VARIABLES DEFINITION */
+
+:root{
+    --color-principal: #0ef;
+    --color-secondary: #ffffff;
+
+    --color-background: #081b29;
+    --color-transparent: transparent;
+    --color-title: #000000;
+    --color-subtitle: #312f2f;
+    --color-new: #6ae90f;
+    --color-next: #f7a306;
+    --color-incorrect:#ed9191;
+}
+
+/*--GENERAL STYLES--*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-background);
+}
+
+/*--app fondo--*/
+.app{
+    background: var(--color-secondary);
+    width: 90%;
+    max-width: 60rem;
+    margin: 10rem auto 0;
+    border-radius: 0.5rem;
+    padding: 3rem;
+}
+
+/*--app título--*/
+.app h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-new);
+    border-bottom: 0.2rem solid var(--color-new);
+    padding-bottom: 1rem;
+}
+
+/*--quiz posición altura y lateral izq--*/
+.quiz{
+    padding: 1rem 0;
+}
+
+/*--quiz subtítulo--*/
+.quiz h2{
+    font-size: 1.5rem;
+    color: var(--color-subtitle);
+    font-weight: 600;
+}
+
+/*--quiz btn respuestas--*/
+.btn{
+    color: var(--color-title);
+    font-weight: 500;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: left;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.btn:hover:not([disabled]){
+    color: var(--color-title);
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(233, 162, 8, 0.893);
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+/*--next btn--*/
+#next-btn{
+    display: none;
+    background: var(--color-next);
+    color: var(--color-title);
+    font-weight: 700;
+    width: 9rem;
+    padding: 0.3rem;
+    margin: 1rem auto 0;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+#next-btn:hover{
+    background: var(--color-new);
+    color: var(--color-title);
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(233, 162, 8, 0.893);
+}
+
+.correct{
+    background: var(--color-new);
+}
+
+.incorrect{
+    background: var(--color-incorrect);
+}
