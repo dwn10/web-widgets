@@ -106,7 +106,9 @@ También se incluyen enlaces a redes sociales con un efecto de hover.
 <p align="left">
 
 ## FELIZ AÑO NUEVO
-2024
+Este código crea una cuenta atrás consiste en varios cubos numerados que se mueven y giran de forma dinámica. 
+Al hacer clic en el título, se activa un efecto de animación y se muestra "Feliz año nuevo 2024" iluminado.
+Las burbujas son un elemento decorativo que simula burbujas de jabón que bajan las mismas tienen diferentes colores y efectos de sombra.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1191417093388775514/feliz-anio-nuevo-min.gif?ex=65a55ca2&is=6592e7a2&hm=163536209ea69537cb765a008c3527750444f2b68670ea9a2d14a09e6768335a&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
