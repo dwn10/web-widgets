@@ -121,6 +121,6 @@ de las cuales solo una es correcta. También muestra el resumen de la puntuació
 
 
 <p align='left'>
-<img src="#" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1194677380745273464/quiz.gif?ex=65b13903&is=659ec403&hm=7618d3d1ca07cc4d78c488c08b15a13afce2a54da1ec956ef7bfff0c164e3214&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
