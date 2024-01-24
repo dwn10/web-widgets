@@ -17,7 +17,7 @@
   <form>
     <textarea placeholder="Escribe un texto aquí..." id="input" name="input"></textarea>
     <div class="btn"></div>
-    <button type="submit">Traducir</button>
+    <button type="submit" onclick="mostrar()">Traducir</button>
     </div>
   </form>
 
@@ -94,12 +94,15 @@ form.addEventListener('submit', function(event) {
   event.preventDefault();
   const input = document.querySelector('#input').value;
   const braille = convertToBraille(input);
-  alert(`El texto "${input}" en código braille es: ${braille}`);
+
+  swal('Resultado',`El texto "${input}" en código braille es: ${braille}`,'success', {
+  button: "Formatear!"});
+  
   document.querySelector('#input').value = '';
 });
-
-
 </script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 // efecto 3D
 <script type="text/javascript">
