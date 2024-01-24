@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Convertir texto o número a código Braille</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!--Publisher, Autor-->
+  <meta name="author" content="Darwin Paz">
+  <title>Convertir texto a código Braille</title>
 </head>
 <body>
-  <h1>Convertir texto o número a código Braille</h1>
+
+<div class="hero">
+
+  <h1>Conversor de texto a<br><span id="text" data-text="Código Braille">Código Braille</span></h1>
+
   <form>
-    <label for="input">Introduce el texto o número:</label><br>
-    <input type="text" id="input" name="input"><br>
+    <textarea placeholder="Escribe un texto aquí..." id="input" name="input"></textarea>
+    <div class="btn"></div>
     <button type="submit">Traducir</button>
+    </div>
   </form>
+
 </body>
+</div>
 <script>
     const brailleMap = {
   'a': '⠁',
@@ -65,12 +76,40 @@ function convertToBraille(input) {
   return output;
 }
 
+function convertToBraille(input) {
+  let output = '';
+  for (let i = 0; i < input.length; i++) {
+    const char = input[i].toLowerCase();
+    if (brailleMap[char]) {
+      output += brailleMap[char];
+    } else {
+      output += char;
+    }
+  }
+  return output;
+}
+
 const form = document.querySelector('form');
 form.addEventListener('submit', function(event) {
   event.preventDefault();
   const input = document.querySelector('#input').value;
   const braille = convertToBraille(input);
-  alert(`El texto o número "${input}" en código braille es: ${braille}`);
+  alert(`El texto "${input}" en código braille es: ${braille}`);
+  document.querySelector('#input').value = '';
 });
+
+
 </script>
+
+// efecto 3D
+<script type="text/javascript">
+  var text = document.getElementById('text')
+  var shadow = '';
+  for(var i = 0; i < 6; i++)
+  {
+    shadow +=(shadow? ',':'')+ i*1+'px '+ i*1+'px 0 #081b29';
+  }
+  text.style.textShadow = shadow;
+</script>
+
 </html>
