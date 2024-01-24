@@ -21,6 +21,7 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TARJETA-DESPLEGABLE-3D">TARJETA DESPLEGABLE 3D</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/A%C3%91O-NUEVO">FELIZ AÑO NUEVO</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/QUIZ-APP">QUIZ APP</a></li>
+	<li><a href="#">CONVERSOR DE TEXTO A CÓDIGO BRAILLE</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
@@ -124,3 +125,9 @@ de las cuales solo una es correcta. También muestra el resumen de la puntuació
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1194677380745273464/quiz.gif?ex=65b13903&is=659ec403&hm=7618d3d1ca07cc4d78c488c08b15a13afce2a54da1ec956ef7bfff0c164e3214&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
+
+## CONVERSOR DE TEXTO A CÓDIGO BRAILLE
+!!!
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1199672701187526716/texto-a-braille.gif?ex=65c36544&is=65b0f044&hm=8454fa08f91d25e551ba318fb27ac0e9116bcd0db38f903faaddb5d824ab891d&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
