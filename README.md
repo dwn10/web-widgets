@@ -21,7 +21,7 @@ const Projects = {
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TARJETA-DESPLEGABLE-3D">TARJETA DESPLEGABLE 3D</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/A%C3%91O-NUEVO">FELIZ AÑO NUEVO</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/QUIZ-APP">QUIZ APP</a></li>
-	<li><a href="#">CONVERSOR DE TEXTO A CÓDIGO BRAILLE</a></li>
+	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/TEXTO-A-BRAILLE">CONVERSOR DE TEXTO A CÓDIGO BRAILLE</a></li>
 </ul>
 
 ## EFECTO CAIDA DE NIEVE
