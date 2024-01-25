@@ -127,7 +127,8 @@ de las cuales solo una es correcta. También muestra el resumen de la puntuació
 
 
 ## CONVERSOR DE TEXTO A CÓDIGO BRAILLE
-!!!
+Aplicación web que permite traducir texto a código Braille. 
+El código JavaScript utiliza la biblioteca SweetAlert para mostrar un mensaje emergente con el texto traducido en código Braille.
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1199672701187526716/texto-a-braille.gif?ex=65c36544&is=65b0f044&hm=8454fa08f91d25e551ba318fb27ac0e9116bcd0db38f903faaddb5d824ab891d&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
