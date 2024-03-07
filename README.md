@@ -71,7 +71,7 @@ App que lee el texto ingresado, también puede seleccionar de una  lista de voce
 ## ARRASTRAR & SOLTAR
 Sistema de arrastrar y soltar para mover las casillas de la lista entre las cajas izquierda y derecha de la página web.
 
-<a href="https://media.discordapp.net/attachments/1185882189393575976/1189611290688233492/dragdrop-min.gif?ex=65fb13d9&is=65e89ed9&hm=8ad74483f318c4a91a9eb26f4912dfd549f2d2db4b040ca4738bf9fd93d9d775&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1215120495452622858/dragdrop-1.JPG?ex=65fb9825&is=65e92325&hm=99a94865a2a4337ea71732e4ec31a9c758a173883261ebf69cb10ad324cae1eb&=&format=webp&width=1062&height=597" style="height: 50%; width:50%;"/></a>
+<a href="https://media.discordapp.net/attachments/1185882189393575976/1215131562031456256/dragdrop.gif?ex=65fba274&is=65e92d74&hm=09eac0ea579bb624e971cfe7f1b93d46dbc86ffcc2ebdd923dbcf1b0c08a6eb6&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1215120495452622858/dragdrop-1.JPG?ex=65fb9825&is=65e92325&hm=99a94865a2a4337ea71732e4ec31a9c758a173883261ebf69cb10ad324cae1eb&=&format=webp&width=1062&height=597" style="height: 50%; width:50%;"/></a>
 
 ## FIRMA DIGITAL
 Es una aplicación que permite al usuario firmar en un lienzo con el moviendo del mouse. 
