@@ -30,7 +30,7 @@ La primera imagen tiene un retraso de 2s, la segunda de 1s, la tercera de 3s,
 la cuarta de 4s, la quinta de 3s, la sexta de 6s y la séptima de 7s.
 `>> IMG + VIDEO <<`
 
-<a href="https://cdn.discordapp.com/attachments/1185882189393575976/1187313388259389441/efecto-nieve-min.gif?ex=65966ec2&is=6583f9c2&hm=dc472fbe5374bb8bb4dd9e25c2cd022527719e323fc2dffa6a821b249f74261f&"><img src="https://media.discordapp.net/attachments/1214730549969813504/1215120496044023828/efecto-nieve.png?ex=65fb9826&is=65e92326&hm=718a171965073e3776e029ad1cde58a5073de15f274f1c3a1e33debfdc9368cd&=&format=webp&quality=lossless&width=1062&height=597" style="height: 50%; width:50%;"/></a>
+<a href="https://media.discordapp.net/attachments/1185882189393575976/1187313388259389441/efecto-nieve-min.gif?ex=65f2b7c2&is=65e042c2&hm=bdc895f4e8f6233d1b659e54c880764fb380107cb0e6effbb17127482aa2c6fa&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1215120496044023828/efecto-nieve.png?ex=65fb9826&is=65e92326&hm=718a171965073e3776e029ad1cde58a5073de15f274f1c3a1e33debfdc9368cd&=&format=webp&quality=lossless&width=1062&height=597" style="height: 50%; width:50%;"/></a>
 
 ## COMING SOON
 Página con una animación dinámica de un cohete despegando y 
