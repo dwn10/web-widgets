@@ -8,7 +8,7 @@ const Projects = {
 	}
 }
 ```
-## Content
+## Contenido
 <ul>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE">EFECTO CAIDA DE NIEVE</a></li>
 	<li><a href="https://github.com/dwn10/web-widgets/tree/main/WEBSITE/COMING-SOON-PAGE">COMING SOON</a></li>
