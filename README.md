@@ -39,7 +39,7 @@ El código JavaScript crea un temporizador que cuenta regresivamente la fecha en
 horas, minutos y segundos determinada por el usuario. 
 Cuando el temporizador llega a cero, se detiene y los elementos se establecen en 0.
 
-<a href="https://media.discordapp.net/attachments/1185882189393575976/1187513330391326892/coming-soon-min.gif?ex=65f371f8&is=65e0fcf8&hm=945e47f0fa865c84d55d67b192cc2623d0535c34b9d4c9488fb9bab28ed4ebcd&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1215120498707537980/coming-soon.png?ex=65fb9826&is=65e92326&hm=32c2739e7a9cdd07a89fe8b39803b1329850299204d6c60a520ab7b842d986fe&=&format=webp&quality=lossless&width=1062&height=597" style="height: 80%; width:80%;"/></a>
+<a href="https://media.discordapp.net/attachments/1185882189393575976/1187513330391326892/coming-soon-min.gif?ex=65f371f8&is=65e0fcf8&hm=945e47f0fa865c84d55d67b192cc2623d0535c34b9d4c9488fb9bab28ed4ebcd&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1216690264630890596/coming-soon-1.JPG?ex=66014e1c&is=65eed91c&hm=d3d92a86d007aaa20cb13438b57d5b4415c9e19b9284d64eb324f8c4c4d4dc95&=&format=webp&width=1070&height=597" style="height: 80%; width:80%;"/></a>
 
 ## SUSCRIPCIÓN
 Formulario de suscripción para ingresar la dirección de correo electrónico. 
