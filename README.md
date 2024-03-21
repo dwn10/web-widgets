@@ -77,7 +77,7 @@ Sistema de arrastrar y soltar para mover las casillas de la lista entre las caja
 Es una aplicación que permite al usuario firmar en un lienzo con el moviendo del mouse. 
 El usuario puede borrar, descargar la firma en formato PNG haciendo clic en el botón Descargar.
 
-<a href="https://media.discordapp.net/attachments/1185882189393575976/1190758551786893332/firma-digital.gif?ex=65f605d1&is=65e390d1&hm=f9610419c8498cff001256d30faeb3ca17819b50cee8e6740b12d9e65a288bee&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1215120496816033872/firma-digital.png?ex=65fb9826&is=65e92326&hm=78d608d9b1db3d0171fad96a2a4272dab77dbc8fb2ce1674aee486af6951acd8&=&format=webp&quality=lossless&width=1062&height=597" style="height: 80%; width:80%;"/></a>
+<a href="https://media.discordapp.net/attachments/1185882189393575976/1190758551786893332/firma-digital.gif?ex=66087ad1&is=65f605d1&hm=5db6fbf3a4bd900384173f24a2d1c2648691b5a06c75750aafc9f2e059d6398d&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1220254818275168256/firma-digital.JPG?ex=660e45db&is=65fbd0db&hm=054cb04382c87b91c539a4bb692f20622cca98cee7f3f40ae97558afe74fe23c&=&format=webp&width=1064&height=597" style="height: 80%; width:80%;"/></a>
 
 ## TARJETA DESPLEGABLE 3D
 Tarjeta interactiva con un fondo giratorio y detalles personalizados. 
